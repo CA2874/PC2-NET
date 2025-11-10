@@ -1,0 +1,32 @@
+﻿  ConsoleApplication1.cpp
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(15,27): warning C4018: '<': no coinciden signed/unsigned
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(12): message : al compilar la función del miembro clase plantilla "HashTable<Registro>::HashTable(size_t)"
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101): message : Vea la referencia a la creación de una instancia de la función plantilla "HashTable<Registro>::HashTable(size_t)" que se está compilando
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101): message : Vea la referencia a la creación de una instancia de clase plantilla "HashTable<Registro>" que se está compilando
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\DLL.h(28,28): warning C4018: '>': no coinciden signed/unsigned
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\DLL.h(27): message : al compilar la función del miembro clase plantilla "void DoublyLinkedList<HashTable<Registro>::Element>::insertAt(T,int)"
+          with
+          [
+              T=HashTable<Registro>::Element
+          ]
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(22): message : Vea la referencia a la creación de una instancia de la función plantilla "void DoublyLinkedList<HashTable<Registro>::Element>::insertAt(T,int)" que se está compilando
+          with
+          [
+              T=HashTable<Registro>::Element
+          ]
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(48): message : Vea la referencia a la creación de una instancia de clase plantilla "DoublyLinkedList<HashTable<Registro>::Element>" que se está compilando
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(41): message : al compilar la función del miembro clase plantilla "void HashTable<Registro>::display(void (__cdecl *)(T))"
+          with
+          [
+              T=Registro
+          ]
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(209): message : Vea la referencia a la creación de una instancia de la función plantilla "void HashTable<Registro>::display(void (__cdecl *)(T))" que se está compilando
+          with
+          [
+              T=Registro
+          ]
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(65,1): warning C4244: '+=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(62): message : al compilar la función del miembro clase plantilla "int HashTable<Registro>::_hashFunction(std::string)"
+C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\ConsoleApplication1\HashTableSCH.h(19): message : Vea la referencia a la creación de una instancia de la función plantilla "int HashTable<Registro>::_hashFunction(std::string)" que se está compilando
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  ConsoleApplication1.vcxproj -> C:\Cursos_Chiara\Algoritmos\PC2\EX-PC2\ConsoleApplication1\Debug\ConsoleApplication1.exe
